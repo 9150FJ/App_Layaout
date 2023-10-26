@@ -95,6 +95,18 @@
                 />
 
 
+            <Button
+                android:id="@+id/botonVolver"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="Volver"
+                android:textSize="10dp"
+                android:onClick="botonVolver"
+                />
+
+
         </LinearLayout>
     </LinearLayout>
 

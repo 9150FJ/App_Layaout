@@ -13,7 +13,9 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="194dp">
+        tools:layout_editor_absoluteY="194dp"
+
+        tools:ignore="MissingConstraints">
 
 
     <LinearLayout
@@ -46,8 +48,11 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="LinearLayout"
+            android:onClick="botonLinear"
             tools:layout_editor_absoluteX="168dp"
-            tools:layout_editor_absoluteY="108dp" />
+            tools:layout_editor_absoluteY="108dp"
+
+            />
 
 
         <Button
@@ -66,8 +71,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="RelativeLayout"
+            android:onClick="botonRelativeLayout"
             tools:layout_editor_absoluteX="168dp"
-
             tools:layout_editor_absoluteY="429dp" />
 
         <Button

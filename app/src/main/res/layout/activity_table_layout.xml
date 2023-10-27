@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+
+    android:orientation="vertical"
+    tools:context=".TableLayout">
+
+
+
+
+    <TextView
+        android:id="@+id/textViewResumenFaltas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26dp"
+        android:layout_marginBottom="15dp"
+        android:textStyle="bold"
+        android:text="Resumen de faltas" />
+
+
+    <TableLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textViewMes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Mes" />
+
+
+
+
+        <TextView
+            android:layout_marginStart="100dp"
+            android:id="@+id/textViewFaltas1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Nº Faltas" />
+
+
+    </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textViewSeptiembre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Septiembre" />
+
+
+
+            <TextView
+                android:layout_marginStart="100dp"
+                android:id="@+id/textViewFaltas2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="3" />
+
+        </TableRow>
+
+
+
+        <TableRow>
+
+
+            <TextView
+                android:id="@+id/textViewOctubre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Octubre" />
+
+            <TextView
+                android:layout_marginStart="100dp"
+                android:id="@+id/textViewFaltas3"
+                android:layout_width="wrap_content"
+                android:gravity="end"
+
+                android:layout_height="wrap_content"
+                android:text="4" />
+
+        </TableRow>
+
+
+
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textViewNoviembre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Noviembre" />
+
+
+        <TextView
+            android:layout_marginStart="100dp"
+            android:id="@+id/textViewFaltas4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="0" />
+
+
+    </TableRow>
+
+        <View
+            android:layout_height="2dp"
+            android:layout_width="10dp"
+            android:background="#FF909090" />
+
+
+    </TableLayout>
+
+
+
+</LinearLayout>

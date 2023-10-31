@@ -61,7 +61,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="FrameLayout"
-
+            android:onClick="botonFrameLayout"
             tools:layout_editor_absoluteX="168dp"
             tools:layout_editor_absoluteY="500dp" />
 
@@ -81,7 +81,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="TableLayout"
-
+            android:onClick="botonTable"
             tools:layout_editor_absoluteX="168dp"
             tools:layout_editor_absoluteY="352dp" />
 
@@ -91,7 +91,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="GridLayout"
-
+            android:onClick="botonGridLayout"
             tools:layout_editor_absoluteX="168dp"
             tools:layout_editor_absoluteY="275dp" />
 
@@ -101,7 +101,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="ConstraintLayout"
-
+            android:onClick="botonConstraintLayout"
             tools:layout_editor_absoluteX="168dp"
             tools:layout_editor_absoluteY="186dp" />
     </LinearLayout>

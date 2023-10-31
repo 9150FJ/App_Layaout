@@ -26,12 +26,28 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    public void botonTable(View view){
+        Intent i = new Intent(this,TableLayout.class);
+        startActivity(i);
+    }
+
+
     public void botonFrameLayout(View view){
-        //Intent i = new Intent(this,MainActivity.class);
-        //startActivity(i);
+        Intent i = new Intent(this, FrameLayout.class);
+        startActivity(i);
     }
     public void botonRelativeLayout(View view){
         Intent i = new Intent(this, RelativeLayout.class);
+        startActivity(i);
+    }
+
+    public void botonGridLayout(View view){
+        Intent i = new Intent(this, GridLayout.class);
+        startActivity(i);
+    }
+
+    public void botonConstraintLayout(View view){
+        Intent i = new Intent(this, ConstraintLayout.class);
         startActivity(i);
     }
 

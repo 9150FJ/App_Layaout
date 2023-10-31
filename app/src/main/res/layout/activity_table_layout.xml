@@ -23,7 +23,7 @@
 
 
     <TableLayout
-        android:layout_width="300dp"
+        android:layout_width="150dp"
         android:layout_height="wrap_content">
 
         <TableRow>
@@ -39,7 +39,6 @@
 
 
         <TextView
-            android:layout_marginStart="100dp"
             android:id="@+id/textViewFaltas1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -62,7 +61,6 @@
 
 
             <TextView
-                android:layout_marginStart="100dp"
                 android:id="@+id/textViewFaltas2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -83,7 +81,6 @@
                 android:text="Octubre" />
 
             <TextView
-                android:layout_marginStart="100dp"
                 android:id="@+id/textViewFaltas3"
                 android:layout_width="wrap_content"
                 android:gravity="end"
@@ -106,7 +103,6 @@
 
 
         <TextView
-            android:layout_marginStart="100dp"
             android:id="@+id/textViewFaltas4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -118,12 +114,42 @@
 
         <View
             android:layout_height="2dp"
-            android:layout_width="10dp"
+            android:layout_width="1dp"
             android:background="#FF909090" />
+
+
+
+
+        <TableRow>
+
+        <TextView
+            android:id="@+id/textViewTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total: " />
+
+
+        <TextView
+            android:id="@+id/textViewNumeroTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="7" />
+
+        </TableRow>
+
+
 
 
     </TableLayout>
 
+    <Button
+        android:id="@+id/botonRetrocederTableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:onClick="botonVolverTabla"
+        android:text="Volver" />
 
 
 </LinearLayout>
